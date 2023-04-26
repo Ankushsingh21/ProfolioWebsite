@@ -20,5 +20,7 @@ jobs:
 
           jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll
           build --future"
-      - name: Action GitHub Deployment
-  uses: ReasonSoftware/action-github-deployment@v2.0.1
+      - name: Create Deployment
+        uses: 'docker://reasonsoftware/action-github-deployment:v1'
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
