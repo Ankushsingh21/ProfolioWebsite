@@ -153,10 +153,10 @@ element.style {
 /* education 
 --------------------------*/
 .education {
-  background-image: url(../image/annie-spratt-unsplash.jpg);
+  /* background-image: url(../image/annie-spratt-unsplash.jpg); */
   background-size: cover;
   background-position: top;
-  padding-bottom: 100px;
+
 }
 
 .education p {
