@@ -498,7 +498,7 @@
 .wp-block-cover .wp-block-cover__inner-container {
   width: 100%;
   z-index: 1;
-  color: rgb(8, 8, 8);
+  color: rgb(241, 239, 239);
 }
 
 .wp-block-cover-image h1:not(.has-text-color),
