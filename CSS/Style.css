@@ -11,11 +11,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 body {
   color: #343434;
   margin: 0;
@@ -24,10 +26,12 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
+
 img {
   width: 300px;
   height: 400px;
 }
+
 a {
   color: #ffe66d;
 }
@@ -35,10 +39,12 @@ a {
 a:hover {
   text-decoration: none;
 }
+
 h1 {
   font-size: 100px;
   line-height: 1;
 }
+
 h2 {
   font-size: 45px;
 }
@@ -49,19 +55,23 @@ h2 {
   font-weight: 400;
   margin: 0;
 }
+
 .content-wrap {
-  max-width: 800px;
+  max-width: 100px;
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 }
+
 h3 {
   margin-bottom: 0;
 }
-.item-details h3 + p {
+
+.item-details h3+p {
   font-style: italic;
 }
-.item-details h3 ~ p {
+
+.item-details h3~p {
   margin: 0;
 }
 
@@ -72,16 +82,18 @@ header {
   color: #f7fff7;
   text-align: center;
 }
+
 element.style {
   object-position: 50% 70%;
 }
 
 .profilePic {
-  width: 220px;
+  width: 230px;
   height: 270px;
   position: relative;
   top: -45px;
 }
+
 .profile-item {
   overflow: hidden;
   padding: 25px 0;
@@ -92,9 +104,11 @@ element.style {
 .project {
   background: #f7fff7;
 }
+
 .project a {
   color: #2f3061;
 }
+
 .project btn {
   color: #f7fff7;
   background: #2f3061;
@@ -103,18 +117,22 @@ element.style {
   border-radius: 4px;
   display: inline-block;
 }
+
 .project btn:hover {
   background: rgba(47, 48, 97, 80%);
 }
+
 .project img {
   width: 100px;
   height: 100px;
 }
+
 .project-item {
   overflow: hidden;
   border-bottom: 1px dashed #343434;
   padding: 25px 0;
 }
+
 .project-item img {
   float: left;
   margin: 20px;
@@ -125,6 +143,7 @@ element.style {
 .work-Experience {
   background: #a1c6d7;
 }
+
 .job-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -139,6 +158,7 @@ element.style {
   background-position: top;
   padding-bottom: 100px;
 }
+
 .education p {
   width: 60%;
 }
@@ -150,16 +170,19 @@ footer {
   color: #f7fff7;
   text-align: center;
 }
+
 .contact-list {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
+
 .contact-list a {
   padding: 15px;
   display: inline-block;
 }
+
 /* response web  
 --------------------------*/
 @media screen and (min-width: 750px) {
